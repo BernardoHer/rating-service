@@ -1,11 +1,13 @@
 import React from "react";
 import './Testimonial.css';
+import Photo1 from '../images/profile1';
 
 function Testimonial() {
   return (
     <div className='Testimonial_container'>
       <div>
-        <h2 className='Testimonial_name' > Bernardo Hernandez</h2>
+        <h2 className='Testimonial_name' > Mary Reynolds</h2>
+        <img src={Photo1} />
       </div>
 
       <div className='Testimonial_content'>
